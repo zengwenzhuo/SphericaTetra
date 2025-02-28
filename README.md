@@ -1,22 +1,22 @@
 # SphericaTetra
 
-# 使用SphericaTetra算法进行3D重建
+# 3D reconstruction using SphericaTetra algorithm
 
-## 安装步骤
+## Installation procedure
 
-1. **下载并安装`neuroshape`算法包**
+1. **Load and install the `neuroshape` algorithm package**
 
-   在`neuroshape`文件夹的上一级目录中，打开终端并执行以下指令来安装`neuroshape`算法包：
+   In the upper directory of the 'neuroshape' folder, open the terminal and execute the following instructions to install the 'neuroshape' algorithm package：
 
    ```bash
    pip install -e .
 
-2. **数据集准备**
+2. **Dataset preparation**
 
-   我们的数据集为BraTs2021数据集，请确保已经下载并解压到指定位置
+   Our data set is the BraTs2021 data set, make sure you have downloaded and extracted it to the specified location
 
-3. **修改demo.py文件中的数据集路径**
-   在demo.py文件中，将数据集文件路径修改为您本地的路径即可
+3. **Modify the data set path in the demo.py file**
+   In the demo.py file, change the data set file path to your local path
 
-4. **运行3D重建**
-   修改完路径后，您可以直接运行demo.py，启动3D重建过程
+4. **Run 3D reconstruction**
+   After modifying the path, you can directly run demo.py to start the 3D reconstruction process
